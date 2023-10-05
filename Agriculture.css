@@ -31,6 +31,10 @@ h1 {
     border-radius: 8px;
     margin: 10px 0;
     padding-bottom: 15px;
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
 }
 
 .Agriculture-card h2 {
@@ -39,9 +43,14 @@ h1 {
 }
 
 .Agriculture-card p {
-    text-align: justify;
+    text-align:center;
 }
-
+#Agriculture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 @media screen and (min-width: 768px) {
     #services {
         display: flex;
